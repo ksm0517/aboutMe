@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: https://github.com/ksm0517/ksm0517.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -16,7 +16,7 @@ website: https://blog.naver.com/7tkfkd
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 github_username:  ksm0517
@@ -46,14 +46,6 @@ about_profile_image: images/profile.jpg (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   운동과 지적 향상을 거듭하는 프로그래머 <mark>운프입니다.</mark>.
 
-'''
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
-'''
-
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -66,9 +58,41 @@ content:
         #   - title:  https://github.com/boostcampaitech2/image-classification-level1-33 (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+    content:
+      - layout: left
+        title: object detection
+        link: https://github.com/boostcampaitech2/object-detection-level2-cv-07
+        link_text: Github Link
+        # additional_links:
+        #   - title:  https://github.com/boostcampaitech2/image-classification-level1-33 (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+    content:
+      - layout: left
+        title: segmentation
+        link: https://github.com/boostcampaitech2/image-classification-level1-33
+        link_text: Github Link
+        # additional_links:
+        #   - title:  https://github.com/boostcampaitech2/image-classification-level1-33 (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
@@ -89,9 +113,9 @@ content:
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Myongji Univ.
+        sub_title: BA Physic
+        caption: 2015~2019
         quote: >
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
