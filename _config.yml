@@ -46,11 +46,13 @@ about_profile_image: images/profile.jpg (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   운동과 지적 향상을 거듭하는 프로그래머 <mark>운프입니다.</mark>.
 
-  # You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-  #   - Lists
-  #   - Tables
-  #   - <a href="google.com">Links</a>
-  #   - Images ![alt text](/images/landscape-trees.jpg "Trees")
+'''
+  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+    - Lists
+    - Tables
+    - <a href="google.com">Links</a>
+    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+'''
 
 content:
   - title: Projects # Title for the section
@@ -58,8 +60,8 @@ content:
     content:
       - layout: left
         title: classification
-        link: https://github.com/boostcampaitech2/image-classification-level1-33 (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        link: https://github.com/boostcampaitech2/image-classification-level1-33
+        link_text: Github Link
         # additional_links:
         #   - title:  https://github.com/boostcampaitech2/image-classification-level1-33 (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
