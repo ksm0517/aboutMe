@@ -42,7 +42,7 @@ facebook_username: ksm0517
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/profile.jpg (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   운동과 지적 향상을 거듭하는 프로그래머 <mark>운프입니다.</mark>.
 
@@ -65,7 +65,6 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-    content:
       - layout: left
         title: object detection
         link: https://github.com/boostcampaitech2/object-detection-level2-cv-07
@@ -81,7 +80,6 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-    content:
       - layout: left
         title: segmentation
         link: https://github.com/boostcampaitech2/image-classification-level1-33
@@ -97,18 +95,6 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
   - title: Education
     layout: list
     content:
@@ -120,6 +106,20 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
+
+  - title: Extra curricular
+    layout: list
+    content:
+      - layout: right
+        title: boostcamp
+        sub_title: camper
+        caption: August 2021 ~ present
+        link: Link to company (optional)
+        quote: >
+          인공지능 기초, classification, object detection, segmentation, 모델 최적화, product serving 강의 수강
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
