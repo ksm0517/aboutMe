@@ -52,49 +52,50 @@ content:
     content:
       - layout: left
         title: classification
-        link: https://github.com/boostcampaitech2/image-classification-level1-33
-        link_text: Github Link
-        # additional_links:
-        #   - title:  https://github.com/boostcampaitech2/image-classification-level1-33 (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link: https://github.com/ksm0517/portfolio/tree/main/classification
+        link_text: report Link
+        additional_links:
+          - title:  https://github.com/boostcampaitech2/image-classification-level1-33
+            icon: fab fa-github
+            url: https://github.com/boostcampaitech2/image-classification-level1-33
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          gender, mask, age classifcation task
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          my contribute was customizing label smoothing, psuedo labeling and management schedule.
+          And I also studied all pipeline of AI model like dataset, data loader, train, evaluation etc.
       - layout: left
         title: object detection
-        link: https://github.com/boostcampaitech2/object-detection-level2-cv-07
-        link_text: Github Link
-        # additional_links:
-        #   - title:  https://github.com/boostcampaitech2/image-classification-level1-33 (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link: https://github.com/ksm0517/portfolio/tree/main/object_detection
+        link_text: report Link
+        additional_links:
+          - title:  https://github.com/boostcampaitech2/object-detection-level2-cv-07
+            icon: fab fa-github
+            url: https://github.com/boostcampaitech2/object-detection-level2-cv-07
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          trash data detection task and also classification too
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          asdf
       - layout: left
         title: segmentation
-        link: https://github.com/boostcampaitech2/image-classification-level1-33
-        link_text: Github Link
-        # additional_links:
-        #   - title:  https://github.com/boostcampaitech2/image-classification-level1-33 (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link: https://github.com/ksm0517/portfolio/tree/main/segmentation
+        link_text: report Link
+        additional_links:
+          - title:  https://github.com/boostcampaitech2/semantic-segmentation-level2-cv-07
+            icon: fab fa-github
+            url: https://github.com/boostcampaitech2/semantic-segmentation-level2-cv-07
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          trash data segmentation task and also classification too
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          asdf
   - title: Education
     layout: list
     content:
@@ -103,9 +104,9 @@ content:
         sub_title: BA Physic
         caption: 2015~2019
         quote: >
-          Short institution or course description (optional)
+          Studied physics, math, semiconductor and also studied computational physics
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Now, I actually like physics too. but I like computational things more than physics 
 
   - title: Extra curricular
     layout: list
@@ -116,9 +117,9 @@ content:
         caption: August 2021 ~ present
         link: Link to company (optional)
         quote: >
-          인공지능 기초, classification, object detection, segmentation, 모델 최적화, product serving 강의 수강
+          Study AI
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Basic AI, classification, object detection, segmentation, Model optimization, product serving
 
   - title: A Little More About Me
     layout: text
