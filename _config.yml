@@ -45,9 +45,9 @@ facebook_username: ksm0517
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   운동과 지적 향상을 거듭하는 프로그래머 <mark>운프입니다.</mark>.<br/>
-  취미로 일렉기타🎸를 칩니다.<br/>
+  취미로 일렉기타🎸를 칩니다. vlog를 하거나 하진 않지만 영상 편집🎬을 한적이 많아서 자신있습니다.🎥<br/>
   대학교 때 응원단장, 과대표❤️‍🔥 등을 맡아 팀원들과 소통, 성과물을 만드는 것의 즐거움을 배웠습니다.<br/>
-  비전공자로써 CS지식이 부족한 점을 채우고자 틈틈히 운영체제, 자료구조, 알고리즘 등에 대해 공부하고 있습니다.<br/>
+  비전공자로써 CS지식이 부족한 점을 채우고자 틈틈히 운영체제, 자료구조, 알고리즘 등에 대해 공부하고 있습니다.✍️<br/>
   불편함이 있는 곳에 불편함을 없애는, 생산성을 향상시키는 프로그램을 개발하고 싶습니다.😃
 
 content:
@@ -114,34 +114,58 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: right
         title: Myongji Univ.
         sub_title: BA Physic
         caption: 2015~2019
-        quote: >
-          Studied physics, math, semiconductor and also studied computational physics
-        description: | # this will include new lines to allow paragraphs
-          Now, I actually like physics too. but I like computational things more than physics 
+        # quote: >
+        #   Studied physics, math, semiconductor and also studied computational physics
+        # description: | # this will include new lines to allow paragraphs
+        #   Now, I actually like physics too. but I like computational things more than physics 
 
-  - title: Extra curricular
-    layout: list
-    content:
       - layout: right
         title: boostcamp
         sub_title: camper
         caption: August 2021 ~ present
-        link: Link to company (optional)
+        link: https://boostcamp.connect.or.kr/
+        link_text: site Link
         quote: >
           Study AI
         description: | # this will include new lines to allow paragraphs
           Basic AI, classification, object detection, segmentation, Model optimization, product serving
 
+  - title: Extra curricular
+    layout: list
+    content:
+      - layout: right
+        title: cheer team
+        sub_title: member -> leader
+        caption: march 2015 ~ october 2016
+        quote: >
+          리더로써의 성장
+        description: | # this will include new lines to allow paragraphs
+          오해가 쌓인 관계에 시행착오를 겪으며, 팀원들과 협업하는 방법을 익혔습니다. <br/>
+          불편한 관계에서 도망치지 않고 해결함으로써 책임감을 배웠습니다.
+
+      - layout: right
+        title: broadcast team
+        sub_title: member -> manager
+        caption: January 2015 ~ present
+        link: https://www.youtube.com/channel/UC_PGmoXPG9V0B14Bpeotp1w
+        link_text: site Link
+        quote: >
+          실시간 방송을 진행하고 편집
+        description: | # this will include new lines to allow paragraphs
+          방송하는 법, 툴 등을 꾸준히 알려줄 사람이 없었습니다. <br/>
+          기본기만을 배우고, 유튜브, 구글링 등을 통해 학습했습니다. <br/>
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      **anormaly detection, mlops** 등에 관심을 가지고 있으며, AI 연구 환경 구축에 흥미를 느낍니다.<br/>
+      **잘 몰라서 해매는 것을 두려워 하지 않으며**, 저보다 잘 아는 분에게 배우는 것에 즐거움을 느낍니다.<br/>
+      프로젝트를 수행한 것은 아니여서 잘은 모르지만 JSP 기반 backend를 공부한 적이 있습니다.(제 블로그에 정리되어 있습니다.)<br/>
+      아직은 잘 모르는 것들이 많지만 꾸준히 성장해나가는 주니어 개발자가 되고 싶습니다.
 
 # Footer
 footer_show_references: true
