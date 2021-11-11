@@ -44,10 +44,10 @@ facebook_username: ksm0517
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  운동과 지적 향상을 거듭하는 프로그래머 <mark>운프입니다.</mark>.</br>
-  취미로 일렉기타🎸를 칩니다.</br>
-  대학교 때 응원단장, 과대표❤️‍🔥 등을 맡아 팀원들과 소통, 성과물을 만드는 것의 즐거움을 배웠습니다.</br>
-  비전공자로써 CS지식이 부족한 점을 채우고자 틈틈히 운영체제, 자료구조, 알고리즘 등에 대해 공부하고 있습니다.</br>
+  운동과 지적 향상을 거듭하는 프로그래머 <mark>운프입니다.</mark>.<br/>
+  취미로 일렉기타🎸를 칩니다.<br/>
+  대학교 때 응원단장, 과대표❤️‍🔥 등을 맡아 팀원들과 소통, 성과물을 만드는 것의 즐거움을 배웠습니다.<br/>
+  비전공자로써 CS지식이 부족한 점을 채우고자 틈틈히 운영체제, 자료구조, 알고리즘 등에 대해 공부하고 있습니다.<br/>
   불편함이 있는 곳에 불편함을 없애는, 생산성을 향상시키는 프로그램을 개발하고 싶습니다.😃
 
 content:
@@ -68,7 +68,7 @@ content:
         quote: >
           gender, mask, age classifcation task
         description: | # this will include new lines to allow paragraphs
-          contribute : customizing label smoothing, psuedo labeling and management schedule.</br>
+          contribute : customizing label smoothing, psuedo labeling and management schedule.<br/>
           Studied all pipeline of AI model like dataset, data loader, train, evaluation and so on.
 
       - layout: left
@@ -85,7 +85,7 @@ content:
         quote: >
           trash data detection task and also classification too
         description: | # this will include new lines to allow paragraphs
-          contribute : visualize, universe101, pvt-B3, DCN, swin, ensemble etc.</br>
+          contribute : visualize, universe101, pvt-B3, DCN, swin, ensemble etc.<br/>
           I found when model become deeper, it makes high mIoU
           I thought it might not helpful for me.
           so I focus on finding trouble in visualized picture
@@ -105,7 +105,7 @@ content:
         quote: >
           trash data segmentation task and also classification too
         description: | # this will include new lines to allow paragraphs
-          contribute : build lib environment, ensemble, augmentation, crf tool etc.</br>
+          contribute : build lib environment, ensemble, augmentation, crf tool etc.<br/>
           When object detection project, I didn't have time to research augmentation.
           And there is no much things to fix model
           So I tried to see change when augmentation is applied
