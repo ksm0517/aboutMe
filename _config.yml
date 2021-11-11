@@ -156,8 +156,9 @@ content:
         quote: >
           실시간 방송을 진행하고 편집
         description: | # this will include new lines to allow paragraphs
-          방송하는 법, 툴 등을 꾸준히 알려줄 사람이 없었습니다. <br/>
-          기본기만을 배우고, 유튜브, 구글링 등을 통해 학습했습니다. <br/>
+          모르는 일도 유튜브, 구글링, 아는 분들께 질문 등을 통해 학습했습니다. <br/>
+          특별히 영상을 편집하는 과정에서 마스킹을 직접 수작업으로 하는 데, 이를 인공지능으로 수행할 수 있다면 좋겠다.<br/>
+          라는 생각을 한 적이 있습니다.
 
   - title: A Little More About Me
     layout: text
