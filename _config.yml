@@ -66,7 +66,7 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          gender, mask, age classifcation task
+          **gender, mask, age classifcation task**
         description: | # this will include new lines to allow paragraphs
           <mark>contribute</mark> : customizing label smoothing loss, psuedo labeling and management schedule.<br/>
           <mark>result</mark> : increse 0.1 f1 score by my contribute <br/>
@@ -84,7 +84,7 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          trash data detection task and also classification too
+          **trash data detection task and also classification too**
         description: | # this will include new lines to allow paragraphs
           <mark>contribute</mark> : visualize, universe101, pvt-B3, DCN, swin, ensemble etc.<br/>
           <mark>result</mark> : increase 0.1 f1 score with experiment <br/>
@@ -105,9 +105,9 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          trash data segmentation task and also classification too
+          **trash data segmentation task and also classification too**
         description: | # this will include new lines to allow paragraphs
-          <mark>contribute<mark> : build lib environment, ensemble, augmentation, crf tool etc.<br/>
+          <mark>contribute</mark> : build lib environment, ensemble, augmentation, crf tool etc.<br/>
           <mark>result</mark> : rank 14 -> 9, increase 0.03 mIoU with experiment <br/>
           I tried to see change when augmentation is applied.
           I think this was the reason that we could go high when private set was revealed.
