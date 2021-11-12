@@ -68,7 +68,8 @@ content:
         quote: >
           gender, mask, age classifcation task
         description: | # this will include new lines to allow paragraphs
-          contribute : customizing label smoothing, psuedo labeling and management schedule.<br/>
+          <mark>contribute</mark> : customizing label smoothing loss, psuedo labeling and management schedule.<br/>
+          <mark>result</mark> : increse 0.1 f1 score by my contribute <br/>
           Studied all pipeline of AI model like dataset, data loader, train, evaluation and so on.
 
       - layout: left
@@ -85,11 +86,12 @@ content:
         quote: >
           trash data detection task and also classification too
         description: | # this will include new lines to allow paragraphs
-          contribute : visualize, universe101, pvt-B3, DCN, swin, ensemble etc.<br/>
-          I found when model become deeper, it makes high mIoU
-          I thought it might not helpful for me.
-          so I focus on finding trouble in visualized picture
-          and tried change model to fix them
+          <mark>contribute</mark> : visualize, universe101, pvt-B3, DCN, swin, ensemble etc.<br/>
+          <mark>result</mark> : increase 0.1 f1 score with experiment <br/>
+          I found when model become deeper, it makes high mAP
+          I thought it might not helpful for me to experimenting just bigger model.
+          So I focused on finding trouble in visualized picture.
+          And tried fix them by changing function of model like rpn proposal, fpn.
           
       - layout: left
         title: segmentation
@@ -105,10 +107,11 @@ content:
         quote: >
           trash data segmentation task and also classification too
         description: | # this will include new lines to allow paragraphs
-          contribute : build lib environment, ensemble, augmentation, crf tool etc.<br/>
-          When object detection project, I didn't have time to research augmentation.
-          And there is no much things to fix model
-          So I tried to see change when augmentation is applied
+          <mark>contribute<mark> : build lib environment, ensemble, augmentation, crf tool etc.<br/>
+          <mark>result</mark> : rank 14 -> 9, increase 0.03 mIoU with experiment <br/>
+          I tried to see change when augmentation is applied.
+          I think this was the reason that we could go high when private set was revealed.
+          And I tried to make many engineering tool. 
 
 
   - title: Education
