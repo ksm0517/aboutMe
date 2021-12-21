@@ -66,9 +66,10 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          openshot program which has OCR function
+          **openshot program which has OCR function**
         description: | # this will include new lines to allow paragraphs
-          contribute : Project Manage
+          <mark>result</mark> : response time - under 10s, f1 - over 0.6<br/>
+          <mark>contribute</mark> : Project Manage
           (scheduling, connecting each part, announcement, searching paper and share with team member)
           frontend(openshot) setting UI
           model finetune, HP tune, change model structure
@@ -86,9 +87,10 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          model lightning with autoML & studied KD, tensor decomposition etc.
+          **model lightning with autoML & studied KD, tensor decomposition etc.**
         description: | # this will include new lines to allow paragraphs
-          contribute : setting baseline
+          <mark>result</mark> : 2000 image inference - 58.3928s f1 - 0.6965
+          <mark>contribute</mark> : setting baseline
           review baseline to team member
 
       - layout: left
@@ -103,12 +105,13 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          trash data segmentation task and also classification too
+          **trash data segmentation task and also classification too**
         description: | # this will include new lines to allow paragraphs
-          contribute : build lib environment, ensemble, augmentation, crf tool etc.<br/>
-          When object detection project, I didn't have time to research augmentation.
-          And there is no much things to fix model
-          So I tried to see change when augmentation is applied
+          <mark>result</mark> : increase 0.1 f1 score with experiment <br/>
+          <mark>contribute</mark> : build lib environment, ensemble, augmentation, crf tool etc.<br/>
+          I tried to see change when augmentation is applied.
+          I think this was the reason that we could go high when private set was revealed.
+          And I tried to make many engineering tool. 
 
       - layout: left
         title: object detection
@@ -122,14 +125,15 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          trash data detection task and also classification too
+          **trash data detection task and also classification too**
         description: | # this will include new lines to allow paragraphs
-          contribute : visualize, universe101, pvt-B3, DCN, swin, ensemble etc.<br/>
-          I found when model become deeper, it makes high mIoU
-          I thought it might not helpful for me.
-          so I focus on finding trouble in visualized picture
-          and tried change model to fix them
-
+          <mark>result</mark> : increase 0.1 f1 score with experiment <br/>
+          <mark>contribute</mark> : visualize, universe101, pvt-B3, DCN, swin, ensemble etc.<br/>
+          I found when model become deeper, it makes high mAP
+          I thought it might not helpful for me to experimenting just bigger model.
+          So I focused on finding trouble in visualized picture.
+          And tried fix them by changing function of model like rpn proposal, fpn.
+          
       - layout: left
         title: classification
         link: https://github.com/ksm0517/portfolio/tree/main/classification
@@ -142,9 +146,10 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          gender, mask, age classifcation task
+          **gender, mask, age classifcation task**
         description: | # this will include new lines to allow paragraphs
-          contribute : customizing label smoothing, psuedo labeling and management schedule.<br/>
+          <mark>result</mark> : increse 0.1 f1 score by my contribute <br/>
+          <mark>contribute</mark> : customizing label smoothing loss, psuedo labeling and management schedule.<br/>
           Studied all pipeline of AI model like dataset, data loader, train, evaluation and so on.
 
 
