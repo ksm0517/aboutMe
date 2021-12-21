@@ -44,7 +44,7 @@ facebook_username: ksm0517
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  운동과 지적 향상을 거듭하는 프로그래머 <mark>운프입니다.</mark>.<br/>
+  주어진 미션을 완료해내는 프로그래머 <mark>김성민입니다.</mark>.<br/>
   취미로 일렉기타🎸를 칩니다. 특기는 영상 편집🎬입니다.🎥<br/>
   대학교 때 응원단장, 과대표❤️‍🔥 등을 맡아 팀원들과 소통, 성과물을 만드는 것의 즐거움을 배웠습니다.<br/>
   비전공자로써 CS지식이 부족한 점을 채우고자 틈틈히 운영체제, 자료구조, 알고리즘 등에 대해 공부하고 있습니다.✍️<br/>
@@ -55,21 +55,60 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: classification
-        link: https://github.com/ksm0517/portfolio/tree/main/classification
+        title: OCR in Editor
+        link: https://github.com/ksm0517/portfolio/tree/main/OCR_in_Editor
         link_text: report Link
         additional_links:
-          - title:  https://github.com/boostcampaitech2/image-classification-level1-33
+          - title:  https://github.com/boostcampaitech2/final-project-level3-cv-07
             icon: fab fa-github
-            url: https://github.com/boostcampaitech2/image-classification-level1-33
+            url: https://github.com/boostcampaitech2/final-project-level3-cv-07
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          gender, mask, age classifcation task
+          openshot program which has OCR function
         description: | # this will include new lines to allow paragraphs
-          contribute : customizing label smoothing, psuedo labeling and management schedule.<br/>
-          Studied all pipeline of AI model like dataset, data loader, train, evaluation and so on.
+          contribute : Project Manage
+          (scheduling, connecting each part, announcement, searching paper and share with team member)
+          frontend(openshot) setting UI
+          model finetune, HP tune, change model structure
+          make color finder function in server
+
+      - layout: left
+        title: model lightning & optimization
+        link: https://github.com/ksm0517/portfolio/tree/main/model_optimization
+        link_text: report Link
+        additional_links:
+          - title:  https://github.com/boostcampaitech2/model-optimization-level3-cv-07
+            icon: fab fa-github
+            url: https://github.com/boostcampaitech2/model-optimization-level3-cv-07
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          model lightning with autoML & studied KD, tensor decomposition etc.
+        description: | # this will include new lines to allow paragraphs
+          contribute : setting baseline
+          review baseline to team member
+
+      - layout: left
+        title: segmentation
+        link: https://github.com/ksm0517/portfolio/tree/main/segmentation
+        link_text: report Link
+        additional_links:
+          - title:  https://github.com/boostcampaitech2/semantic-segmentation-level2-cv-07
+            icon: fab fa-github
+            url: https://github.com/boostcampaitech2/semantic-segmentation-level2-cv-07
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          trash data segmentation task and also classification too
+        description: | # this will include new lines to allow paragraphs
+          contribute : build lib environment, ensemble, augmentation, crf tool etc.<br/>
+          When object detection project, I didn't have time to research augmentation.
+          And there is no much things to fix model
+          So I tried to see change when augmentation is applied
 
       - layout: left
         title: object detection
@@ -90,25 +129,23 @@ content:
           I thought it might not helpful for me.
           so I focus on finding trouble in visualized picture
           and tried change model to fix them
-          
+
       - layout: left
-        title: segmentation
-        link: https://github.com/ksm0517/portfolio/tree/main/segmentation
+        title: classification
+        link: https://github.com/ksm0517/portfolio/tree/main/classification
         link_text: report Link
         additional_links:
-          - title:  https://github.com/boostcampaitech2/semantic-segmentation-level2-cv-07
+          - title:  https://github.com/boostcampaitech2/image-classification-level1-33
             icon: fab fa-github
-            url: https://github.com/boostcampaitech2/semantic-segmentation-level2-cv-07
+            url: https://github.com/boostcampaitech2/image-classification-level1-33
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          trash data segmentation task and also classification too
+          gender, mask, age classifcation task
         description: | # this will include new lines to allow paragraphs
-          contribute : build lib environment, ensemble, augmentation, crf tool etc.<br/>
-          When object detection project, I didn't have time to research augmentation.
-          And there is no much things to fix model
-          So I tried to see change when augmentation is applied
+          contribute : customizing label smoothing, psuedo labeling and management schedule.<br/>
+          Studied all pipeline of AI model like dataset, data loader, train, evaluation and so on.
 
 
   - title: Education
