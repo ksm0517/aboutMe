@@ -69,10 +69,10 @@ content:
           **openshot program which has OCR function**
         description: | # this will include new lines to allow paragraphs
           <mark>result</mark> : response time - under 10s, f1 - over 0.6<br/>
-          <mark>contribute</mark> : Project Manage
-          (scheduling, connecting each part, announcement, searching paper and share with team member)
-          frontend(openshot) setting UI
-          model finetune, HP tune, change model structure
+          <mark>contribute</mark> : Project Manage<br/>
+          (scheduling, connecting each part, announcement, searching paper and share with team member)<br/>
+          frontend(openshot) setting UI<br/>
+          model finetune, HP tune, change model structure<br/>
           make color finder function in server
 
       - layout: left
@@ -89,8 +89,8 @@ content:
         quote: >
           **model lightning with autoML & studied KD, tensor decomposition etc.**
         description: | # this will include new lines to allow paragraphs
-          <mark>result</mark> : 2000 image inference - 58.3928s f1 - 0.6965
-          <mark>contribute</mark> : setting baseline
+          <mark>result</mark> : 2000 image inference - 58.3928s f1 - 0.6965<br/>
+          <mark>contribute</mark> : setting baseline<br/>
           review baseline to team member
 
       - layout: left
@@ -109,8 +109,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           <mark>result</mark> : increase 0.1 f1 score with experiment <br/>
           <mark>contribute</mark> : build lib environment, ensemble, augmentation, crf tool etc.<br/>
-          I tried to see change when augmentation is applied.
-          I think this was the reason that we could go high when private set was revealed.
+          I tried to see change when augmentation is applied.<br/>
+          I think this was the reason that we could go high when private set was revealed.<br/>
           And I tried to make many engineering tool. 
 
       - layout: left
@@ -129,9 +129,9 @@ content:
         description: | # this will include new lines to allow paragraphs
           <mark>result</mark> : increase 0.1 f1 score with experiment <br/>
           <mark>contribute</mark> : visualize, universe101, pvt-B3, DCN, swin, ensemble etc.<br/>
-          I found when model become deeper, it makes high mAP
-          I thought it might not helpful for me to experimenting just bigger model.
-          So I focused on finding trouble in visualized picture.
+          I found when model become deeper, it makes high mAP<br/>
+          I thought it might not helpful for me to experimenting just bigger model.<br/>
+          So I focused on finding trouble in visualized picture.<br/>
           And tried fix them by changing function of model like rpn proposal, fpn.
           
       - layout: left
