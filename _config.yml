@@ -58,12 +58,12 @@ content:
         title: 뷰메진
         sub_title: CV Engineer
         caption: 2022.03~
-        기여: >
+        quote: >
           이미지 처리, open3d를 활용한 위변조 인식,
           건축물 결함 검사 모델 성능 향상
           (크랙 두께 정확도 향상, 모델 연구, metric, 코드정리, data 전처리 및 후처리)
           건축물 이미지 이어 붙이기
-        contiribution: | # this will include new lines to allow paragraphs
+        description: | # this will include new lines to allow paragraphs
           fake car number plate recognition with image processing, open3d
           enhancement buiding defect detection, segmentation
           (increase accuracy, make metric, modeling, organizing code, data pre-processing, post processing)
