@@ -55,19 +55,30 @@ content:
     layout: list
     content:
       - layout: right
-        title: 뷰메진
+        title: viewmagine
         sub_title: CV Engineer
         caption: 2022.03~
-        description: |
-          이미지 처리, open3d를 활용한 위변조 인식,<br/>
-          건축물 결함 검사 모델 성능 향상<br/>
-          (크랙 두께 정확도 향상, 모델 연구, metric, 코드정리, data 전처리 및 후처리)<br/>
-          건축물 이미지 이어 붙이기<br/>
+        quote: >
+          contribution
         description: | # this will include new lines to allow paragraphs
           fake car number plate recognition with image processing, open3d<br/>
           enhancement buiding defect detection, segmentation<br/>
           (increase accuracy, make metric, modeling, organizing code, data pre-processing, post processing)<br/>
           real data image stitching<br/>
+          
+    layout: list
+    content:
+      - layout: right
+        title: 뷰메진
+        sub_title: 컴퓨터 비젼 엔지니어
+        caption: 2022.03~
+        quote: >
+          기여사항
+        description: | # this will include new lines to allow paragraphs
+          이미지 처리, open3d를 활용한 위변조 인식,<br/>
+          건축물 결함 검사 모델 성능 향상<br/>
+          (크랙 두께 정확도 향상, 모델 연구, metric, 코드정리, data 전처리 및 후처리)<br/>
+          건축물 이미지 이어 붙이기<br/>
 
   - title: Education
     layout: list
