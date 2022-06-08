@@ -12,7 +12,7 @@ email: 7tkfkd@naver.com
 # email_title: Email (Email title override)
 phone: 010-4879-7216
 # phone_title: Phone (Phone title override)
-website: https://blog.naver.com/7tkfkd
+website: https://velog.io/@ksm0517
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -48,9 +48,50 @@ about_content: | # this will include new lines to allow paragraphs
   취미로 일렉기타🎸를 칩니다. 특기는 영상 편집🎬입니다.🎥<br/>
   대학교 때 응원단장, 과대표❤️‍🔥 등을 맡아 팀원들과 소통, 성과물을 만드는 것의 즐거움을 배웠습니다.<br/>
   비전공자로써 CS지식이 부족한 점을 채우고자 틈틈히 운영체제, 자료구조, 알고리즘 등에 대해 공부하고 있습니다.✍️<br/>
-  불편함이 있는 곳에 불편함을 없애는, 생산성을 향상시키는 프로그램을 개발하고 싶습니다.😃
+  좋은 인연을 만나 좋은 성과를 만들고 싶습니다.😃
 
 content:
+  - title: career
+    layout: list
+    content:
+      - layout: right
+        title: 뷰메진
+        sub_title: CV Engineer
+        caption: 2022.03~
+        기여: |
+          이미지 처리, open3d를 활용한 위변조 인식,
+          건축물 결함 검사 모델 성능 향상
+          (크랙 두께 정확도 향상, 모델 연구, metric, 코드정리, data 전처리 및 후처리)
+          건축물 이미지 이어 붙이기
+        contiribution: | # this will include new lines to allow paragraphs
+          fake car number plate recognition with image processing, open3d
+          enhancement buiding defect detection, segmentation
+          (increase accuracy, make metric, modeling, organizing code, data pre-processing, post processing)
+          real data image stitching
+
+  - title: Education
+    layout: list
+    content:
+      - layout: right
+        title: Myongji Univ.
+        sub_title: BA Physic
+        caption: 2015~2019
+        # quote: >
+        #   Studied physics, math, semiconductor and also studied computational physics
+        # description: | # this will include new lines to allow paragraphs
+        #   Now, I actually like physics too. but I like computational things more than physics 
+
+      - layout: right
+        title: boostcamp
+        sub_title: camper
+        caption: August 2021 ~ present
+        link: https://boostcamp.connect.or.kr/
+        link_text: site Link
+        quote: >
+          Study AI
+        description: | # this will include new lines to allow paragraphs
+          Basic AI, classification, object detection, segmentation, Model optimization, product serving
+          
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -151,56 +192,6 @@ content:
           <mark>result</mark> : increse 0.1 f1 score by my contribute <br/>
           <mark>contribute</mark> : customizing label smoothing loss, psuedo labeling and management schedule.<br/>
           Studied all pipeline of AI model like dataset, data loader, train, evaluation and so on.
-
-
-  - title: Education
-    layout: list
-    content:
-      - layout: right
-        title: Myongji Univ.
-        sub_title: BA Physic
-        caption: 2015~2019
-        # quote: >
-        #   Studied physics, math, semiconductor and also studied computational physics
-        # description: | # this will include new lines to allow paragraphs
-        #   Now, I actually like physics too. but I like computational things more than physics 
-
-      - layout: right
-        title: boostcamp
-        sub_title: camper
-        caption: August 2021 ~ present
-        link: https://boostcamp.connect.or.kr/
-        link_text: site Link
-        quote: >
-          Study AI
-        description: | # this will include new lines to allow paragraphs
-          Basic AI, classification, object detection, segmentation, Model optimization, product serving
-
-  - title: Extra curricular
-    layout: list
-    content:
-      - layout: right
-        title: cheer team
-        sub_title: member -> leader
-        caption: march 2015 ~ october 2016
-        quote: >
-          리더로써의 성장
-        description: | # this will include new lines to allow paragraphs
-          오해가 쌓인 관계에 시행착오를 겪으며, 팀원들과 협업하는 방법을 익혔습니다. <br/>
-          불편한 관계에서 도망치지 않고 해결함으로써 책임감을 배웠습니다.
-
-      - layout: right
-        title: broadcast team
-        sub_title: member -> manager
-        caption: January 2015 ~ present
-        link: https://www.youtube.com/channel/UC_PGmoXPG9V0B14Bpeotp1w
-        link_text: site Link
-        quote: >
-          실시간 방송을 진행하고 편집
-        description: | # this will include new lines to allow paragraphs
-          모르는 일도 유튜브, 구글링, 아는 분들께 질문 등을 통해 학습했습니다. <br/>
-          특별히 영상을 편집하는 과정에서 마스킹을 직접 수작업으로 하는 데, 이를 인공지능으로 수행할 수 있다면 좋겠다.<br/>
-          라는 생각을 한 적이 있습니다.
 
   - title: A Little More About Me
     layout: text
