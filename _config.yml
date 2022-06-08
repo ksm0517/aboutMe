@@ -58,7 +58,7 @@ content:
         title: 뷰메진
         sub_title: CV Engineer
         caption: 2022.03~
-        quote: >
+        description: |
           이미지 처리, open3d를 활용한 위변조 인식,<br/>
           건축물 결함 검사 모델 성능 향상<br/>
           (크랙 두께 정확도 향상, 모델 연구, metric, 코드정리, data 전처리 및 후처리)<br/>
