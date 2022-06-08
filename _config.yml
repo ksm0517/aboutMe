@@ -66,8 +66,6 @@ content:
           (increase accuracy, make metric, modeling, organizing code, data pre-processing, post processing)<br/>
           real data image stitching<br/>
           
-    layout: list
-    content:
       - layout: right
         title: 뷰메진
         sub_title: 컴퓨터 비젼 엔지니어
