@@ -42,11 +42,11 @@ content:
         quote: >
           What I did
         description: |
-          Building crack detection: <mark>crack ai train</mark>, <mark>image stitching</mark> <br/>
-          <mark>localization</mark>, <mark>PoC</mark>
+          Building crack detection: <mark>crack ai train</mark>, <mark>image stitching</mark> 
+          <mark>localization-GPS, VO</mark>, <mark>PoC</mark>
           License plate recognition: <mark>License plate 3D processing-ToF</mark><br/>
-          <mark>OCR</mark>, <mark>make architecture</mark>
-          ETC: <mark>paper write</mark>
+          <mark>OCR</mark>, <mark>make architecture</mark><br/>
+          ETC: <mark>paper, document write</mark>
       - layout: right
         title: pluxity
         sub_title: AI사업팀-주임
@@ -54,7 +54,7 @@ content:
         quote: >
           What I do now
         description: |
-          CCTV observing: <mark>dataset</mark>
+          CCTV observing: <mark>dataset</mark><br/>
           ETC: <mark>write RFP</mark>
 
   - title: Personal Projects # Title for the section
