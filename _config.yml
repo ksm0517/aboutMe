@@ -26,9 +26,9 @@ facebook_username: ksm0517
 
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi👋 I'm AI engineer elliot
-  I frequently playing electric guitar🎸.
-  I also can make video🎞️ by using vegas pro.📹
+  Hi👋 I'm AI engineer elliot</br>
+  I frequently playing electric guitar🎸.</br>
+  I also can make video🎞️ by using vegas pro.📹</br>
   I hope to develop program which can delete discomfort and improve productivity.
 
 content:
@@ -43,8 +43,8 @@ content:
           What I did
         description: |
           Building crack detection: <mark>crack ai train</mark>, <mark>image stitching</mark> 
-          <mark>localization-GPS, VO</mark>, <mark>PoC</mark>
-          License plate recognition: <mark>License plate 3D processing-ToF</mark><br/>
+          <mark>localization-GPS, VO</mark>, <mark>PoC</mark><br/>
+          License plate recognition: <mark>License plate 3D processing-ToF</mark>
           <mark>OCR</mark>, <mark>make architecture</mark><br/>
           ETC: <mark>paper, document write</mark>
       - layout: right
