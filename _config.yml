@@ -26,9 +26,9 @@ facebook_username: ksm0517
 
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi👋 I'm AI engineer elliot</br>
-  I frequently playing electric guitar🎸.</br>
-  I also can make video🎞️ by using vegas pro.📹</br>
+  Hi👋 I'm AI engineer elliot<br/>
+  I frequently playing electric guitar🎸.<br/>
+  I also can make video🎞️ by using vegas pro.📹<br/>
   I hope to develop program which can delete discomfort and improve productivity.
 
 content:
